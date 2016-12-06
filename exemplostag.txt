@@ -1,0 +1,61 @@
+<html>
+<meta charset=utf-8>
+<title>exemplo de tags</title>
+
+<h1>formulários</h1>
+<form action="">
+<fieldset>
+<legend>Dados Pessoais </legend>
+<label for="nome"> Nome: </
+label>
+<input type="text"
+id="nome"/>
+<br/> <br/>
+
+<label for="e-mail"> E-mail: </label>
+<input type="email"
+id="e-mail" />
+<br/> <br/>
+<label for="senha"> Senha: </label>
+<input type="password"
+id="senha"/>
+<br/> <br/>
+<label for="bairro"> Bairro: </label>
+ &nbsp; <select size="1" id="bairro">
+<option>kobrasol </option>
+<option>campinas </option>
+<option selected="selected">outros </option>
+</select>
+<br/> <br/>
+interesses: <br/>
+<input type="checkbox"name="interesses"/>
+Vodka
+<br/>
+
+<input type="checkbox"name="interesse"/>
+Cerveja
+<br/>
+Idade <br/>
+<input type="radio"name="idade"name="interesse"/> 0-18
+<br/>
+<input type="radio"name="idade"name="interesse"/> 18-30
+<br/> <br/>
+Observações: <br/>
+<textarea cols = "40" rows = "5" name= "Observações"></textarea>
+
+<input type = "hidden" name = "IdProduto" value = "10" />
+<br/>
+<input type = "submit" />
+<input type = "reset" value = "Apagar" />
+<br/>
+Foto Teste <br/>
+<img src = "teste.png" width = "50" height = "50" alt = "tete" />
+
+
+
+
+</fieldset>
+</form>
+
+</html>
+

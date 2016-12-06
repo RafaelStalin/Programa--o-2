@@ -4,9 +4,26 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Pessoas</title>
+<title>Tabela Aleatórios</title>
 </head>
 <body>
-
+<%@ page import="usj.lp2.pessoas.NumerosAleatorios"%>
+<%
+	NumerosAleatorios numAleatorio = new NumerosAleatorios();
+	int[] num = numAleatorio.getNum();
+	 
+	for(int i=0; i<num.length; i++){
+	         System.out.print(num[i]+"  ");
+	}
+%>
+<table>
+<% for (int i=0; i < num.length; i++){
+%>
+<tr>
+<td><%out.print(num[i][0]); %></td>
+<td><%out.print(num[i][1]); %></td>
+</tr>
+<%}
+</table>
 </body>
 </html>

@@ -1,0 +1,32 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de Cachaceiros</title>
+<link rel="stylesheet" type="text/css" href="drinkcss.css">
+</head>
+<body>
+Cadastro de Cachaceiros <br> <br>
+<form name="nome" action="cadastro.html" method="GET" target="_blank">
+Nome: <input type="text" name="nome"><br>
+<form name="nascimento" action="cadastro.html" method="GET" target="_blank" >
+Data de nascimento: <input type="text" name="idade" value="DD/MM/AAAA"><br>
+</form>
+<label>
+Interesses:
+<form name="bebida" action="cadastro.html" method="GET">
+<input type="checkbox" name="bebida" value="bd1"> Cerveja <br> 
+<input type="checkbox" name="bebida" value="bd2"> Vodka <br>
+<input type="checkbox" name="bebida" value="bd3"> Refri <br>
+<input type="checkbox" name="bebida" value="bd4"> Água <br>
+</form> 
+</label>
+Estado: 
+<form name="estado" action="cadastro.html" method="GET"> 
+<input type="radio" name="estado" value="rs"> Rio Grande do Sul <br>
+<input type="radio" name="estado" value="sc"> Santa Catarina <br>
+<input type="radio" name="estado" value="pr"> Paraná <br>
+</form>
+<input type="submit" value="Enviar formulário">  <br>
+<input type="reset" value="Apagar">
+</body>
+</html>

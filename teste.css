@@ -1,0 +1,119 @@
+
+body {color: #000;
+	background-color: #fff;
+	font-weight: bold; 
+	background-size: 100%;
+}
+	
+input, textarea {
+	border: #669 2px solid;
+	display: block;
+	width: 30em;
+}
+
+input[type=submit,reset] {
+	border: #bbb 1px solid;
+	margin-top: 0.5em;
+}
+
+input[type="radio"] {
+	float: left;
+    clear: left;
+    width: 50px;
+    line-height: 20px;
+}
+
+label[type="radio"]{
+    padding:5px;
+    color:#222;
+	margin: 10px;
+	float: left;
+    vertical-align: middle;
+}
+
+input[type="checkbox"] {
+	float: left;
+    clear: left;
+    width: 50px;
+    line-height: 20px;
+}
+
+label[type="checkbox"]{
+    padding:5px;
+    color:#222;
+	margin: 10px;
+	float: left;
+    vertical-align: middle;
+}
+
+/** Demo Table **/
+
+#demo-table {
+  font: 100% sans-serif;
+  background-color: #efe;
+  border-collapse: collapse;
+  empty-cells: show;
+  border: 1px solid #7a7;
+}
+
+#demo-table > caption {
+  font-weight: bold;
+  font-size: 200%;
+  border-bottom: .2em solid #4ca;
+  margin-bottom: .5em;
+}
+
+#demo-table th,
+#demo-table td {
+  padding-right: .5em;
+}
+
+#demo-table th {
+  font-weight: bold;
+  padding-left: .5em;
+}
+
+
+
+#demo-table > thead > tr:first-child > th {
+    color: blue;
+}
+
+#demo-table > thead > tr + tr > th {
+  font-style: italic;
+  color: gray;
+}
+
+
+#demo-table sup {
+  font-size: 75%;
+}
+
+#demo-table td {
+  background-color: #cef;
+  padding:.5em .5em .5em 3em;
+}
+
+#demo-table tbody th:after {
+  content: ":";
+}
+
+#demo-table tfoot {
+  font-weight: bold;
+}
+
+#demo-table tfoot th {
+  color: blue;
+}
+
+#demo-table tfoot th:after {
+  content: ":";
+}
+
+#demo-table > tfoot td {
+  background-color: #cee;
+}
+
+#demo-table > tfoot > tr:first-child td {
+  border-top: .2em solid #7a7;
+}

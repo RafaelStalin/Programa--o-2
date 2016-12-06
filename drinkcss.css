@@ -1,0 +1,49 @@
+
+body {color: #000;
+	background-color: #fff;
+	font-weight: bold; 
+	background-image: url('bedados.jpg');
+	background-size: 100%;
+}
+	
+input, textarea {
+	border: #669 2px solid;
+	display: block;
+	text-align: left;
+	width: 30em;
+}
+
+input[type=submit,reset] {
+	border: #bbb 1px solid;
+	margin-top: 0.5em;
+}
+
+input[type="radio"] {
+	float: left;
+    clear: left;
+    width: 50px;
+    line-height: 20px;
+}
+
+label[type="radio"]{
+    padding:5px;
+    color:#222;
+	margin: 10px;
+	float: left;
+    vertical-align: middle;
+}
+
+input[type="checkbox"] {
+	float: left;
+    clear: left;
+    width: 50px;
+    line-height: 20px;
+}
+
+label[type="checkbox"]{
+    padding:5px;
+    color:#222;
+	margin: 10px;
+	float: left;
+    vertical-align: middle;
+}
